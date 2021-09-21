@@ -4,6 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { registerGlobalComponents } from './registerGlobalComponents'
 import { router } from './router'
+import '@mdi/font/css/materialdesignicons.css'
 
 const root = createApp(App)
 registerGlobalComponents(root)

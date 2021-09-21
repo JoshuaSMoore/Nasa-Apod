@@ -1,10 +1,16 @@
 <template>
   <div class="about">
-    <h1>
-      "Calendar"
-      <calendar>
-      </calendar>
-    </h1>
+    <card class="spaceCard">
+      <card-header>
+        <h1 class="text-center">
+          "Date Selector"
+        </h1>
+      </card-header>
+      <card-body class="shadow">
+        <calendar>
+        </calendar>
+      </card-body>
+    </card>
   </div>
 </template>
 
@@ -13,3 +19,9 @@ export default {
   name: 'CalendarPage'
 }
 </script>
+<style>
+.spaceCard{
+  background-color: aqua;
+}
+
+</style>
